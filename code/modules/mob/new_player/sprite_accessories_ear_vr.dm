@@ -600,49 +600,49 @@
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "cobra_hood-inner"
 
-/* // Special snowflake ears go below here. //ChompEDIT - no they don't
+ // Special snowflake ears go below here. //ChompEDIT - no they don't
 
 /datum/sprite_accessory/ears/molenar_kitsune
 	name = "quintail kitsune ears (Molenar)"
 	desc = ""
 	icon_state = "molenar-kitsune"
-	 = list("molenar")
+	//ckeys_allowed = list("molenar")
 
 /datum/sprite_accessory/ears/lilimoth_antennae
 	name = "citheronia antennae (Kira72)"
 	desc = ""
 	icon_state = "lilimoth_antennae"
-	 = list("kira72")
+	//ckeys_allowed = list("kira72")
 
 /datum/sprite_accessory/ears/molenar_deathclaw
 	name = "deathclaw ears (Molenar)"
 	desc = ""
 	icon_state = "molenar-deathclaw"
-	 = list("molenar")
+	//ckeys_allowed = list("molenar")
 
 /datum/sprite_accessory/ears/miria_fluffdragon
 	name = "fluffdragon ears (Miria Masters)"
 	desc = ""
 	icon_state = "miria-fluffdragonears"
-	 = list("miriamasters")
+	//ckeys_allowed = list("miriamasters")
 
 /datum/sprite_accessory/ears/miria_kitsune
 	name = "kitsune ears (Miria Masters)"
 	desc = ""
 	icon_state = "miria-kitsuneears"
-	 = list("miriamasters")
+	//ckeys_allowed = list("miriamasters")
 
 /datum/sprite_accessory/ears/runac
 	name = "fennecsune ears (Runac)"
 	desc = ""
 	icon_state = "runac"
-	 = list("rebcom1807")
+	//ckeys_allowed = list("rebcom1807")
 
 /datum/sprite_accessory/ears/kerena
 	name = "wingwolf ears (Kerena)"
 	desc = ""
 	icon_state = "kerena"
-	 = list("somekindofpony")
+	//ckeys_allowed = list("somekindofpony")
 
 /datum/sprite_accessory/ears/rosey
 	name = "tritail kitsune ears (Rosey)"
@@ -650,50 +650,50 @@
 	icon_state = "rosey"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	 = list("joey4298")
+	//ckeys_allowed = list("joey4298")
 
 /datum/sprite_accessory/ears/aronai
 	name = "aronai ears/head (Aronai)"
 	desc = ""
 	icon_state = "aronai"
-	 = list("arokha")
+	//ckeys_allowed = list("arokha")
 
 /datum/sprite_accessory/ears/holly
 	name = "tigress ears (Holly Sharp)"
 	desc = ""
 	icon_state = "tigressears"
-	 = list("hoodoo")
+	//ckeys_allowed = list("hoodoo")
 
 /datum/sprite_accessory/ears/molenar_inkling
 	name = "teal mature inkling hair (Kari Akiren)"
 	desc = ""
 	icon_state = "molenar-tentacle"
-	 = list("molenar")
+	//ckeys_allowed = list("molenar")
 
 /datum/sprite_accessory/ears/shock
 	name = "pharoah hound ears (Shock Diamond)"
 	desc = ""
 	icon_state = "shock"
-	 = list("icowom","cameron653")
+	//ckeys_allowed = list("icowom","cameron653")
 
 /datum/sprite_accessory/ears/alurane
 	name = "alurane ears/hair (Pumila)"
 	desc = ""
 	icon_state = "alurane-ears"
-	 = list("natje")
+	//ckeys_allowed = list("natje")
 
 /datum/sprite_accessory/ears/frost
     name = "Frost antenna"
     desc = ""
     icon_state = "frosted_tips"
-     = list("tucker0666")
+    //ckeys_allowed = list("tucker0666")
 
 /datum/sprite_accessory/ears/sylv_pip
     name = "sylveon ears and ribbons (Pip Shyner)"
     desc = ""
     icon_state = "pipears"
-     = list("phoaly")
-*/ //ChompEDIT END
+    //ckeys_allowed = list("phoaly")
+
 
 /datum/sprite_accessory/ears/elf_caprine_colorable
 	name = "Caprine horns with pointy ears, colorable"
@@ -1018,13 +1018,13 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/*/datum/sprite_accessory/ears/kara //SatinIsle Fluff Item //Chomp REMOVE
+/datum/sprite_accessory/ears/kara //SatinIsle Fluff Item
 	name = "Pterokara horn"
 	desc = ""
 	icon = 'icons/mob/vore/ears_vr.dmi'
 	icon_state = "kara_horn"
-	 = list("satinisle")
-*/ //Chomp REMOVE End
+	//ckeys_allowed = list("satinisle")
+
 
 /datum/sprite_accessory/ears/shark
 	name = "shark ears (Colorable)"

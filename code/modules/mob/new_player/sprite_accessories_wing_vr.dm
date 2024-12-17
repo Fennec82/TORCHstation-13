@@ -18,7 +18,7 @@
 	name = "pharoah hound tail (Shock Diamond)"
 	desc = ""
 	icon_state = "shock"
-	////ckeys_allowed = list("icowom")
+	//ckeys_allowed = list("icowom")
 
 /datum/sprite_accessory/wing/featheredlarge //Made by Natje!
 	name = "large feathered wings (colorable)"
@@ -52,11 +52,11 @@
 	icon_state = "dragonfly"
 	color_blend_mode = ICON_MULTIPLY
 
-/* /datum/sprite_accessory/wing/citheroniamoth //Chomp REMOVE START
+/datum/sprite_accessory/wing/citheroniamoth
 	name = "citheronia wings"
 	desc = ""
 	icon_state = "citheronia_wings"
-	//ckeys_allowed = list("kira72") */ //Chomp REMOVE END
+	ckeys_allowed = list("kira72") 
 
 /datum/sprite_accessory/wing/feathered
 	name = "feathered wings, colorable"
@@ -320,13 +320,13 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/*/datum/sprite_accessory/wing/kara //SatinIsle Fluff Item //Chomp REMOVE
+/datum/sprite_accessory/wing/kara //SatinIsle Fluff Item
 	name = "Pterokara wings"
 	desc = ""
 	icon = 'icons/mob/vore/wings_vr.dmi'
 	icon_state = "feathered_kara"
 	//ckeys_allowed = list("satinisle")
-*/
+
 
 /datum/sprite_accessory/wing/winglets //smol wingarms at the elbow
 	name = "feathered winglets"
