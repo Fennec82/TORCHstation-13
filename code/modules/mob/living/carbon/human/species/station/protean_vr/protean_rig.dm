@@ -375,7 +375,6 @@
 		H.SetBlinded(0)
 		H.eye_blurry = 0
 		H.ear_deaf = 0
-		H.deaf_loop.stop() // CHOMPStation Add: Ear Ringing/Deafness
 		H.ear_damage = 0
 		H.heal_overall_damage(H.getActualBruteLoss(), H.getActualFireLoss(), 1)
 		for(var/I in H.organs_by_name)
@@ -423,7 +422,7 @@
 	charge_amount = 100
 	var/mob/living/carbon/human/charger
 
-/obj/item/cell/protean/Initialize() //ChompEDIT New --> Initialize
+/obj/item/cell/protean/Initialize()
 	charge = maxcharge
 	update_icon()
 	addtimer(CALLBACK(src, PROC_REF(search_for_protean)), 60)
