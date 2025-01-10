@@ -46,3 +46,7 @@
   - rscadd: Added more stuff to Tyr
   - rscadd: Some bonu stuff for wilderness
   - bugfix: bonfire examine
+2025-01-10:
+  Fennec82:
+  - refactor: All Ckey Restricted customization options have been made available to
+      everyone
