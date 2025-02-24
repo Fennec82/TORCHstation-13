@@ -336,6 +336,10 @@
   - balance: Telecubes no longer start mated in xenoarch. This means you'll have to
       find two of them (and be sad the game won't let you pair them). This means you
       will no longer get gibbed if you're unlucky
+2025-02-18:
+  Arrhythmia_V:
+  - qol: Tend wounds surgery can now be done with a hemostat, rather than trauma and
+      burn packs
 2025-02-24:
   Diana:
   - bugfix: signalers will now signal
